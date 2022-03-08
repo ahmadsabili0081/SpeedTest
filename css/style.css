@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#game {
+  width: 350px;
+  margin: 0px auto;
+}
+
+#word {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#input {
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  text-transform: uppercase;
+}
+
+.wrong {
+  color: red;
+}
+
+.correct {
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */
